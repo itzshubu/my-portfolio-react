@@ -11,3 +11,7 @@
         @apply bg-[#1e40af4d] inline-block px-[20px] py-[7px] text-[13px] rounded-md
     }
 }
+
+.active{
+    background-color: #0f172a;
+}
