@@ -37,7 +37,7 @@ const herosection = () => {
           </p>
         </div>
         <div className="bg-[#061840] mt-3 p-4 rounded-md text-left overflow-auto ">
-          <p>
+          <p className="flex items-center">
             <MdEmail className="inline mr-[6px]" />
             {email}
           </p>
