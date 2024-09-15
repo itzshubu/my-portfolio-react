@@ -10,7 +10,7 @@ const herosection = () => {
   let { name, tagline, jobTitle, yearsOfExperience, location, email, skills } =
     PROFILE_DATA;
   return (
-    <div className="m-auto flex flex-col text-white p-6 md:p-[50px] justify-around items-center gap-5 lg:gap-0 md:flex-row">
+    <div id="Home" className=" max-w-screen-xl m-auto flex flex-col text-white p-6 md:p-[50px] justify-around items-center gap-5 lg:gap-0 md:flex-row bg-[#061840]">
       <div className="sm:w-[70%] md:w-[60%] lg:w-[40%] ">
         <h4 className="text-xl my-2">Hi,i'm</h4>
         <h1 className="text-4xl">{name}</h1>

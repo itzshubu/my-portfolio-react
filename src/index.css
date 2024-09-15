@@ -13,5 +13,20 @@
 }
 
 .active{
-    background-color: #0f172a;
+    background-color: #172554;
+}
+html{
+    scroll-behavior: smooth;
+}
+.slick-dots li button:before{
+    color: white;
+}
+.slick-dots li.slick-active button:before{
+    color: white;
+}
+.slick-next{
+    right: -18px;
+}
+.slick-prev{
+    left: -18px;
 }
