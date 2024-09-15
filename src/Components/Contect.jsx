@@ -17,7 +17,7 @@ const Contect = () => {
             <div className="py-4 px-6 flex items-center gap-4 border mb-5 rounded bg-gradient-to-br from-blue-950 to-slate-900 border-blue-800"> <MdOutlineWeb className="border border-solid h-auto w-auto text-[20px] rounded p-2 text-[#67e8f9] border-[#67e8f9]"/> {PROFILE_DATA.website}</div>
         </div>
         <div>
-          <form action="https://formsubmit.co/shubuchoudhary1500@gmail.com" method={"POST"}>
+          <form action="https://formsubmit.co/shubchoudhary1500@gmail.com" method={"POST"}>
         <div> <input type="text" className="py-4 px-6 flex items-center gap-4 border mb-5 rounded bg-gradient-to-br from-blue-950 to-slate-900 border-blue-800 w-full" placeholder="Name" /> </div>
         <div> <input type="Email" className="py-4 px-6 flex items-center gap-4 border mb-5 rounded bg-gradient-to-br from-blue-950 to-slate-900 border-blue-800 w-full" placeholder="Email" /> </div>
         <div><textarea name="" id="" className="py-4 px-6 flex items-center gap-4 border mb-5 rounded bg-gradient-to-br from-blue-950 to-slate-900 border-blue-800 w-full" placeholder="Message"></textarea></div>
