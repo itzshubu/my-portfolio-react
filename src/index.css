@@ -30,3 +30,6 @@ html{
 .slick-prev{
     left: -18px;
 }
+body ,html{
+    overflow-x: hidden;
+}
