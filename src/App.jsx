@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Navbar from "./Components/navbar";
 import Herosection from "./Components/herosection";
 import SKILLS from "./Components/skills/skills";
@@ -8,10 +8,19 @@ import Headroom from "react-headroom";
 import Contect from "./Components/Contect"
 import Footer from "./Components/Footer"
 import "./App.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [count, setCount] = useState(0);
 
+  useEffect(() =>{
+    AOS.init({
+      duration : 1000,
+      once : false,
+      offset: 120
+    })
+  },[]);
   return (
     <>
       <div className="m-auto text-white bg-blue-950">

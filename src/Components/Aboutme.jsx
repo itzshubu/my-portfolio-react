@@ -14,7 +14,7 @@ const Aboutme = () => {
             className="aspect-square md:aspect-auto md:w-[100%] h-full object-cover rounded-md"
           />
         </div>
-        <div className="md:w-[67%] bg-gradient-to-br from-blue-950 to-slate-900 rounded-md">
+        <div data-aos="fade-right" className="md:w-[67%] bg-gradient-to-br from-blue-950 to-slate-900 rounded-md">
             <p className="text-justify p-6">{ABOUT_ME_DATA.introduction + ABOUT_ME_DATA.background}</p>
             <p className="text-justify p-6">{ABOUT_ME_DATA.interests + ABOUT_ME_DATA.careerGoals}</p>
         </div>

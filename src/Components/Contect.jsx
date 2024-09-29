@@ -10,7 +10,7 @@ const Contect = () => {
       <h2 className="py-5 text-5xl font-bold text-[#0f9df8] text-center mt-10">
         Contect us
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 md:px-6 mx-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 md:px-6 mx-5" data-aos="flip-up">
         <div className="">
             <div className="py-4 px-6 flex items-center gap-4 border mb-5 rounded bg-gradient-to-br from-blue-950 to-slate-900 border-blue-800 "> <IoMdMail className="border border-solid h-auto w-auto text-[20px] rounded p-2 text-[#67e8f9] border-[#67e8f9]"/> {PROFILE_DATA.email}</div>
             <div className="py-4 px-6 flex items-center gap-4 border mb-5 rounded bg-gradient-to-br from-blue-950 to-slate-900 border-blue-800"> <IoPhonePortraitOutline className="border border-solid h-auto w-auto text-[20px] rounded p-2 text-[#67e8f9] border-[#67e8f9]" /> {PROFILE_DATA.phone}</div>

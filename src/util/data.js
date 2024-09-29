@@ -161,7 +161,7 @@ export const ABOUT_ME_DATA = {
 export const Projects = [
     {
         title: "download BCA question papers",
-        description: "A website for downloading BCA (Bachelor of Computer Applications) question papers and notes. It offers an easy-to-navigate interface with downloadable PDFs for various subjects, along with relevant study materials. To use, clone the repository and open index.html in your browser.",
+        description: "A website providing BCA question papers, notes, and study materials with an easy interface. Clone and open index.html",
         GithubLink: "https://github.com/itzshubu/Bca-question-paper-download-website",
         LiveServerLink: "https://beautiful-biscuit-919a2b.netlify.app"
     },
@@ -173,43 +173,43 @@ export const Projects = [
     },
     {
         title: "Twitter UI Clone Using TailwindCSS",
-        description: "This repository is a responsive Twitter UI clone built using TailwindCSS. It replicates Twitter's clean, minimal design while leveraging Tailwind's utility-first approach for fast and efficient styling. Ideal for developers looking to learn or use as a foundation for modern web projects.",
+        description: "This repository is a responsive Twitter UI clone using TailwindCSS, replicating Twitter's design for developers to learn or build modern projects.",
         GithubLink: "https://github.com/itzshubu/Catering-Website",
         LiveServerLink: "https://parkashcaterer.netlify.app/"
     },
     {
         title: "Weather App",
-        description: "A weather app using HTML, CSS and JavaScript. Fetch the weather from the openweather app using fetch api.",
+        description: "A weather app built with HTML, CSS, and JavaScript. It fetches weather data from OpenWeather API using the Fetch API.",
         GithubLink: "https://github.com/itzshubu/weather-app",
         LiveServerLink: "https://weather-website-api-using.netlify.app/"
     },
     {
         title: "Search countries",
-        description: "RestCountries integrates RESTful APIs to fetch detailed data about countries worldwide, including population, capital, languages, and currencies. Ideal for developers seeking efficient integration of country-specific information into applications.",
+        description: "RestCountries API fetches country data like population, capital, languages, and currencies. Ideal for developers integrating country-specific info.",
         GithubLink: "https://github.com/itzshubu/RestCountries",
         LiveServerLink: "https://atlas-countries.netlify.app/"
     },
     {
         title: "Password Generator using React",
-        description: "A React.js-based password generator that creates secure, random passwords. Customize password length and character types with an easy-to-use interface. Built for simplicity and responsiveness.",
+        description: "A React.js password generator that creates secure, random passwords. Customize length and characters with a simple, responsive interface.",
         GithubLink: "https://github.com/itzshubu/Password-Generator-using-React.js",
         LiveServerLink: "https://generatepasswordusingreact.netlify.app/"
     },
     {
         title: "currency converter using reactjs",
-        description: "This React.js project is a currency converter application that enables real-time conversion between different currencies. It features a user-friendly interface for inputting amounts, selecting currencies, and swapping between them. The application uses a custom hook to fetch live exchange rates.",
+        description: "A React.js currency converter with real-time conversion, user-friendly interface, and live exchange rates fetched via a custom hook.",
         GithubLink: "https://github.com/itzshubu/Currency-Converter-Using-React.js",
         LiveServerLink: "https://currency-converter-using-reactjs.netlify.app/"
     },
     {
         title: "Todo list using reactjs",
-        description: "Todo List using React: A simple, responsive Todo List app built with React and Vite. Features include adding, editing, deleting, and marking tasks as complete. Ideal for managing daily tasks effectively and learning React concepts.",
+        description: "Todo List app built with React and Vite. Add, edit, delete, and mark tasks complete. Great for task management and learning React.",
         GithubLink: "https://github.com/itzshubu/TodoList-using-react",
         LiveServerLink: "https://todolistbyreact03.netlify.app/"
     },
     {
         title: "Insta Content Downloader using -node.js",
-        description: "Insta Download API is a RESTful service enabling developers to fetch downloadable images and videos from Instagram by providing post URLs. Ideal for integrating Instagram media download features into web and mobile apps, it offers simplicity and efficiency in fetching media content.",
+        description: "Insta Download API lets developers fetch downloadable Instagram images and videos via post URLs, simplifying media integration into apps.",
         GithubLink: "https://github.com/itzshubu/insta-download-api",
         LiveServerLink: ""
     },
@@ -221,7 +221,7 @@ export const Projects = [
     },
     {
         title: "Backend to Frontend Handling API",
-        description: "A full-stack project demonstrating seamless communication between backend and frontend components using modern web technologies. Features a RESTful API with a scalable architecture for efficient data handling. Built with the latest JavaScript frameworks for robust integration.",
+        description: "A full-stack project showcasing backend and frontend communication with a RESTful API. Built with modern JavaScript frameworks for scalable data handling.",
         GithubLink: "https://github.com/itzshubu/Backend-to-Frontend-Handling-API",
         LiveServerLink: ""
     },

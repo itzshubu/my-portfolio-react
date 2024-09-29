@@ -11,7 +11,7 @@ const navbar = () => {
   }
   return (
     <>
-    <nav className=' max-w-screen-xl m-auto z-10 md:px-20  flex p-5 justify-between text-white items-center  backdrop-blur-[200px] bg-blue-950 relative'>
+    <nav data-aos="fade-down" className=' max-w-screen-xl m-auto z-10 md:px-20  flex p-5 justify-between text-white items-center  backdrop-blur-[200px] bg-blue-950 relative'>
          <div className=''>
             <img src={Resume} className='w-12' alt="fortfolio logo"  />
          </div>

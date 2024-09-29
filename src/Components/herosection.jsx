@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { MdLocationPin } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaIdCardAlt ,FaGithub, FaLinkedin } from "react-icons/fa";
@@ -6,12 +6,14 @@ import { FaXTwitter } from "react-icons/fa6"
 import { PROFILE_DATA } from "../util/data";
 import profilepic from "../assets/profilepic.jpg";
 
+
+
 const herosection = () => {
   let { name, tagline, jobTitle, yearsOfExperience, location, email, skills } =
     PROFILE_DATA;
   return (
     <div id="Home" className=" max-w-screen-xl m-auto flex flex-col text-white p-6 md:p-[50px] justify-around items-center gap-5 lg:gap-0 md:flex-row bg-[#061840]">
-      <div className="sm:w-[70%] md:w-[60%] lg:w-[40%] ">
+      <div data-aos="fade-down" className="sm:w-[70%] md:w-[60%] lg:w-[40%] ">
         <h4 className="text-xl my-2">Hi,i'm</h4>
         <h1 className="text-4xl">{name}</h1>
         <h4 className="text-2xl">{jobTitle}</h4>
@@ -20,7 +22,7 @@ const herosection = () => {
           Contect me
         </button>
       </div>
-      <div className="bg-gradient-to-br from-blue-950 to-slate-900 p-6 sm:w-[70%] md:w-[60%] lg:w-[40%] text-center rounded-md">
+      <div data-aos="fade-up" className="bg-gradient-to-br from-blue-950 to-slate-900 p-6 sm:w-[70%] md:w-[60%] lg:w-[40%] text-center rounded-md">
         <div className="">
           <img
             src={profilepic}
