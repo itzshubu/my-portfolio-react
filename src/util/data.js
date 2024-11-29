@@ -163,7 +163,7 @@ export const Projects = [
         title: "download BCA question papers",
         description: "A website providing BCA question papers, notes, and study materials with an easy interface. Clone and open index.html",
         GithubLink: "https://github.com/itzshubu/Bca-question-paper-download-website",
-        LiveServerLink: "https://beautiful-biscuit-919a2b.netlify.app"
+        LiveServerLink: "https://downloadbcaquestionpaper.netlify.app/"
     },
     {
         title: "Catering Website Using Bootstrap",
@@ -206,6 +206,18 @@ export const Projects = [
         description: "Todo List app built with React and Vite. Add, edit, delete, and mark tasks complete. Great for task management and learning React.",
         GithubLink: "https://github.com/itzshubu/TodoList-using-react",
         LiveServerLink: "https://todolistbyreact03.netlify.app/"
+    },
+    {
+        title: "My portfolio from react.js",
+        description: "A personal portfolio website built with React.js, featuring a modern, responsive design, dynamic content, and smooth navigation to showcase projects and skills.",
+        GithubLink: "https://github.com/itzshubu/my-portfolio-react",
+        LiveServerLink: "https://shubham-portfolio-reactjs.netlify.app"
+    },
+    {
+        title: "E-commerce cart using react.js",
+        description: "E-commerce app in React using React Router, useContext, and FakeStoreAPI for product listings, detail views, and cart functionality.",
+        GithubLink: "https://github.com/itzshubu/e-commerce-using-react-with-router-useContext-fakestoreapi",
+        LiveServerLink: "https://e-commerce-usingreact-router.netlify.app/products/all"
     },
     {
         title: "Insta Content Downloader using -node.js",
