@@ -5,6 +5,7 @@ import { FaIdCardAlt ,FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6"
 import { PROFILE_DATA } from "../util/data";
 import profilepic from "../assets/profilepic.jpg";
+import Resume from "../assets/MERN-intern-resume.pdf";
 
 
 
@@ -20,6 +21,9 @@ const herosection = () => {
         <p className="mt-2">{tagline}</p>
         <button className="bg-[#0f9df8] my-[10px] px-[15px] py-[8px] rounded-md border border-[#0f9df8] hover:bg-[#061840]">
           Contect me
+        </button>{" "}
+        <button onClick={()=>{window.location.href=Resume,Resume.download()}} className=" ml-3 my-[10px] px-[15px] py-[8px] rounded-md border border-[#0f9df8] hover:bg-[#0f9df8]">
+          Get Resume
         </button>
       </div>
       <div data-aos="fade-up" className="bg-gradient-to-br from-blue-950 to-slate-900 p-6 sm:w-[70%] md:w-[60%] lg:w-[40%] text-center rounded-md">

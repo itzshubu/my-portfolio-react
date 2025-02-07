@@ -11,10 +11,10 @@ import { GiSkills } from "react-icons/gi";
 
 export const PROFILE_DATA = {
     name: "Shubham",
-    tagline: `A Frontend Web developer passionate about building engaging web applications and solving complex problems with code`,
-    jobTitle: "FrontEnd Web Developer",
+    tagline: `A full-stack MERN, Web developer passionate about building engaging web applications and solving complex problems with code`,
+    jobTitle: "MERN Stack Developer",
     location: "India",
-    yearsOfExperience: "1 Year of teaching experience",
+    yearsOfExperience: "6 month of internship in MERN stack",
     skills: [
         "React.js",
         "JavaScript",
@@ -147,7 +147,7 @@ export const Work_Experience = [
 ]
 
 export const ABOUT_ME_DATA = {
-    introduction: "Hi, I'm Shubham, A self-tought Frontend Web Developer BCA student looking for an opportunity in Web Development. Who is committed to study web development. Mindset to fullfill the life with wonderful memories and knowledge.",
+    introduction: "Hi, I'm Shubham, A self-tought MERN Stack Developer BCA student looking for an opportunity in Web Development. Who is committed to study web development. Mindset to fullfill the life with wonderful memories and knowledge.",
     background: "I hold a Bachelor's degree in Computer Application from Himachal Pradesh University, Shimla. ",
     interests: "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing chess. I'm also an avid reader.",
     careerGoals: "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives",
@@ -159,6 +159,18 @@ export const ABOUT_ME_DATA = {
 }
 
 export const Projects = [
+    {
+        title: "LiveChatApp - Real-Time Chat Application (MERN + Socket.io)",
+        description: "LiveChatApp is a real-time one-on-one messaging application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io.",
+        GithubLink: "https://github.com/itzshubu/LiveChatApp",
+        LiveServerLink: "https://chat-app-deploye.onrender.com"
+    },
+    {
+        title: "E-Commerce Website (MERN Stack)",
+        description: "This full-stack e-commerce platform is built using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+        GithubLink: "https://github.com/itzshubu/full-stack-ecommerce-MERN",
+        LiveServerLink: "https://fullstack-ecom-mern.netlify.app/"
+    },
     {
         title: "download BCA question papers",
         description: "A website providing BCA question papers, notes, and study materials with an easy interface. Clone and open index.html",
@@ -174,8 +186,8 @@ export const Projects = [
     {
         title: "Twitter UI Clone Using TailwindCSS",
         description: "This repository is a responsive Twitter UI clone using TailwindCSS, replicating Twitter's design for developers to learn or build modern projects.",
-        GithubLink: "https://github.com/itzshubu/Catering-Website",
-        LiveServerLink: "https://parkashcaterer.netlify.app/"
+        GithubLink: "https://github.com/itzshubu/Twitter-UI-Clone-Using-TailwindCSS",
+        LiveServerLink: "https://twitter-ui-clone-using-tailwindcss.netlify.app/"
     },
     {
         title: "Weather App",
